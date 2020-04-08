@@ -1,0 +1,28 @@
+{ "frames": [
+   {
+    "filename": "platformSprite.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 46, "h": 10 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 46, "h": 10 },
+    "sourceSize": { "w": 46, "h": 10 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.17-x64",
+  "image": "platformSprite.png",
+  "format": "I8",
+  "size": { "w": 46, "h": 10 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "normal", "from": 0, "to": 0, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Background", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
