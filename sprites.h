@@ -97,7 +97,13 @@ public:
 class PlayerSprite {
 public:
     enum Animation : std::uint16_t {
-		jumping = 0
+		normal = 0,
+		jumping = 3,
+		falling = 8,
+		top = 13,
+		crashed = 16,
+		window = 19,
+		angel = 26
 	};
 };
 

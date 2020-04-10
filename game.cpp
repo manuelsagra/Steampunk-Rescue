@@ -19,14 +19,15 @@ void checkControls() {
             game.paused = !game.paused;
         }
         
-        if (player.status == ENTITY_STATUS_NORMAL) {
-            if (pkt.buttons.leftBtn()) {
-                platform.x -= 3;
-            } else if (pkt.buttons.rightBtn()) {
-                platform.x += 3;
-            }
+        if (pkt.buttons.leftBtn()) {
+            platform.x -= 3;
+        } else if (pkt.buttons.rightBtn()) {
+            platform.x += 3;
         }
         
+        if (pkt.buttons.aBtn() && pkt.buttons.timeHeld(BTN_A) == 1) {
+            initEntities();
+        }
     }
 }
 
@@ -40,16 +41,13 @@ void playLevel() {
         //consumeTime();
         updateEntities();
         
-        calculateOffset();
-        drawStage();
-        //drawEntities();
-        drawPlatform();
-        drawPlayer();
-        drawSidebar();
+        drawScreen();
         
         checkScore();
     } else {
+        drawScreen();
         //drawPause();
+        
         if (pkt.buttons.cBtn() && pkt.buttons.timeHeld(BTN_C) == 1) {
             game.paused = !game.paused;
         }
@@ -58,8 +56,9 @@ void playLevel() {
 
 void initGame() {
     pkt.begin();
-    pkt.display.invisiblecolor = 239;
+    pkt.display.setColorDepth(8);
     pkt.display.loadRGBPalette(auroraPal);
+    pkt.display.invisiblecolor = 0;
     pkt.display.setFont(fontTiny);
     
     game.status = STATUS_LOGO;
@@ -71,6 +70,7 @@ void initGame() {
 
 void startGame() {
     game.level = 0;
+    game.lives = GAME_LIVES;
     game.score = 0;
     game.scoreChanged = false;
     game.demo = false;

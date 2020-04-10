@@ -390,6 +390,186 @@
 		},
 		"\\maps\\stage.tmx.DvpUwK": {
 			"sdcard": false
+		},
+		"\\Steampunk Rescue.bin.2.png": {
+			"sdcard": false
+		},
+		"\\Steampunk Rescue.bin.1.png": {
+			"sdcard": false
+		},
+		"\\Steampunk Rescue.bin.3.png": {
+			"sdcard": false
+		},
+		"\\sprites\\platformSprite.bin": {
+			"sdcard": false
+		},
+		"\\img\\number0.png": {
+			"sdcard": false
+		},
+		"\\img\\number1.png": {
+			"sdcard": false
+		},
+		"\\img\\number2.png": {
+			"sdcard": false
+		},
+		"\\img\\number3.png": {
+			"sdcard": false
+		},
+		"\\img\\number4.png": {
+			"sdcard": false
+		},
+		"\\img\\number5.png": {
+			"sdcard": false
+		},
+		"\\img\\number6.png": {
+			"sdcard": false
+		},
+		"\\img\\number7.png": {
+			"sdcard": false
+		},
+		"\\img\\number8.png": {
+			"sdcard": false
+		},
+		"\\img\\number9.png": {
+			"sdcard": false
+		},
+		"\\img\\number8.h": {
+			"sdcard": false
+		},
+		"\\img\\number9.h": {
+			"sdcard": false
+		},
+		"\\img\\number0.h": {
+			"sdcard": false
+		},
+		"\\img\\number1.h": {
+			"sdcard": false
+		},
+		"\\img\\number2.h": {
+			"sdcard": false
+		},
+		"\\img\\number3.h": {
+			"sdcard": false
+		},
+		"\\img\\number4.h": {
+			"sdcard": false
+		},
+		"\\img\\number5.h": {
+			"sdcard": false
+		},
+		"\\img\\number6.h": {
+			"sdcard": false
+		},
+		"\\img\\number7.h": {
+			"sdcard": false
+		},
+		"\\maps\\stage1.tmx": {
+			"sdcard": false
+		},
+		"\\maps\\stage1.tmx.zXbrhp": {
+			"sdcard": false
+		},
+		"\\maps\\stage1.tmx.uXVLAK": {
+			"sdcard": false
+		},
+		"\\maps\\stage1.tmx.diGGMH": {
+			"sdcard": false
+		},
+		"\\maps\\stage1.tmx.TMbIlb": {
+			"sdcard": false
+		},
+		"\\maps\\stage1.tmx.tuCbEH": {
+			"sdcard": false
+		},
+		"\\maps\\stage1.tmx.QcHdXu": {
+			"sdcard": false
+		},
+		"\\maps\\stage1.tmx.TpjOBl": {
+			"sdcard": false
+		},
+		"\\maps\\stage1.tmx.joIriK": {
+			"sdcard": false
+		},
+		"\\maps\\stage2.tmx.SPZCoW": {
+			"sdcard": false
+		},
+		"\\maps\\stage2.tmx": {
+			"sdcard": false
+		},
+		"\\maps\\stage2.tmx.xjAlDk": {
+			"sdcard": false
+		},
+		"\\maps\\stage1.tmx.jmxLoZ": {
+			"sdcard": false
+		},
+		"\\maps\\stage1.tmx.wAlOus": {
+			"sdcard": false
+		},
+		"\\maps\\stage1.tmx.owloNV": {
+			"sdcard": false
+		},
+		"\\maps\\stage1.tmx.kTrPgo": {
+			"sdcard": false
+		},
+		"\\maps\\stage1.tmx.VoTNdD": {
+			"sdcard": false
+		},
+		"\\sprites\\playerSprite2.h": {
+			"sdcard": false
+		},
+		"\\sprites\\delete.aseprite": {
+			"sdcard": false
+		},
+		"\\sprites\\delete.json": {
+			"sdcard": false
+		},
+		"\\sprites\\delete.png": {
+			"sdcard": false
+		},
+		"\\sprites/delete.bin": {
+			"sdcard": false
+		},
+		"\\sprites\\delete.h": {
+			"sdcard": false
+		},
+		"\\sprites\\deleteme.aseprite": {
+			"sdcard": false
+		},
+		"\\sprites\\deleteme.json": {
+			"sdcard": false
+		},
+		"\\sprites\\deletemepng.png": {
+			"sdcard": false
+		},
+		"\\sprites/deleteme.bin": {
+			"sdcard": false
+		},
+		"\\sprites\\deletemepng.h": {
+			"sdcard": false
+		},
+		"\\Steampunk Rescue.bin.4.png": {
+			"sdcard": false
+		},
+		"\\Steampunk Rescue.bin.5.png": {
+			"sdcard": false
+		},
+		"\\Steampunk Rescue.bin.6.png": {
+			"sdcard": false
+		},
+		"\\Steampunk Rescue.bin.2.h": {
+			"sdcard": false
+		},
+		"\\Steampunk Rescue.bin.3.h": {
+			"sdcard": false
+		},
+		"\\Steampunk Rescue.bin.4.h": {
+			"sdcard": false
+		},
+		"\\Steampunk Rescue.bin.5.h": {
+			"sdcard": false
+		},
+		"\\Steampunk Rescue.bin.6.h": {
+			"sdcard": false
 		}
 	},
 	"BUILDFlags": {

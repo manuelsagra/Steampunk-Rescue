@@ -16,10 +16,12 @@
 #define ENTITY_TYPE_PLATFORM 2
 
 // Entity Status
-#define ENTITY_STATUS_NORMAL 0
+#define ENTITY_STATUS_NORMAL 1
+#define ENTITY_STATUS_CRASHED 2
 
 typedef struct {
     int         level;
+    int         lives;
     bool        finished;
     bool        gameOver;
     bool        demo;
